@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "3",
 
   // Services
   services: [
@@ -79,9 +79,9 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Mskisnow", rating: 5, text: "Barry did a fantastic job of cutting back the 18ft hedge at the rear of our garden as well as completely overhauling our borders. Knowing little about plants and flowers, whilst I’d made some choices, Barry advised on what would work and what wouldn’", date: "4 years ago" },
+    { name: "Dot Martin", rating: 5, text: "Barry transformed our dated and tatty front garden by inspiration and hard work. With oak sleepers and slate infill we now have an upto date garden , one of the best in the road. Thankyou Barry for your hard work and ideas. We would recommend his ser", date: "10 years ago" },
+    { name: "Anthony Cartmell", rating: 5, text: "Excellent service from Barry, who works harder than he really should :) As if by magic our garden suddenly becomes tidy, and all the weeds and cuttings are taken away. ", date: "14 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
